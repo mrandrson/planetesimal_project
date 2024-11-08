@@ -18,8 +18,8 @@ frames_dir = "frames"
 os.makedirs(frames_dir, exist_ok=True)
 
 filenames = []
-for i in range(4000):
-    op.sim.integrate(sim.t + 0.2)
+for i in range(10000):
+    op.sim.integrate(sim.t + 0.1)
     op.update(updateLimits=True)  # update data
 
     frame_filename = f"{frames_dir}/frame_{i:03d}.png"

@@ -9,6 +9,11 @@ sim = rebound.Simulation()
 sim.add(m=1)
 sim.add(a=4, e=0, m=3e-6)
 sim.add(a=10, e=.6, m=3e-6)
+sim.save_to_file("sim.bin", step = 100)
+for i in range(100):
+    sim.integrate(tf*(i+100)/100)
+
+'''
 rebound.OrbitPlotSet(sim, color=True);
 op = rebound.OrbitPlot(sim, unitlabel="[AU]", color=True, periastron=True)
 
@@ -26,4 +31,4 @@ for i in range(4000):
     frame_filename = f"{frames_dir}/frame_{i:03d}.png"
     op.fig.savefig(frame_filename)
     filenames.append(frame_filename)
-
+'''
