@@ -1,14 +1,14 @@
 #!/bin/bash
 
-parallel_jobs=2
+parallel_jobs=10
 
 for i in {1..250}
 do
   echo "Run #$i"
-  v0=$(echo "scale=4; 200*($i/250)" | bc -l)
+  v0=$(echo "scale=4; 1830*($i/250)" | bc -l)
   echo "v0: $v0"
   
-  output_file="testpartout$i.h5"
+  output_file="testpartout$i.csv"
   
   if [ -f "$output_file" ]; then
     rm "$output_file"

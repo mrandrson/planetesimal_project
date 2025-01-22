@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scipy
 from scipy import interpolate
+import pandas as pd
 from scipy.optimize import brentq
 import h5py
 import math
@@ -90,7 +91,7 @@ def meters3toau3(cubic_meters):
 #rmax = meters_to_au((G*M)/(2*c_s**2)) 
  
  
-v_x = np.logspace(-6, 4, 10000) 
+v_x = np.logspace(-12, np.log10(2), 10000) 
 '''
 int01 = trapIntegrateLinear(lambda x: x**2*getAlpha(x), 1*10**(-12), 1, 10000)
 v_integral = np.zeros(10000) 
@@ -99,14 +100,15 @@ for i in range(0, 10000):
         v_integral[i] = trapIntegrateLinear(lambda x: x**2*getAlpha(x), 1*10**(-12), v_x[i], 10000)
     else: 
         v_integral[i] = int01 + trapIntegrateLog(lambda x: x**2*getAlpha(x), 1, v_x[i], 10000)
- 
-np.savetxt('vIntShu.txt', v_integral) 
-'''
 
+np.savetxt('vIntShu.txt', v_integral) 
+
+print(np.loadtxt('shuInt.txt')-np.loadtxt('vIntShu.txt'))
+'''
 v_integral = np.loadtxt('shuInt.txt') 
  
 IntHelper = scipy.interpolate.interp1d(v_x, v_integral, kind = 'cubic')
- 
+
 def get_x_integral(x):
     if x < 10.0**(-6):
         return 0
@@ -187,30 +189,30 @@ def get_augmentation_factor_Shu(b, R, v_0, t):
     return 1 + c_s/v_r
 
 
-
-def simulate_n_particles(v0, t_f): 
-    Ncaptured = 0 
-    Rmax = (G*M)/(2*c_s**2) 
-    sim = rebound.Simulation()  
-    sim.integrator = "IAS15"  
-    sim.G = G  
-  
-    def extraForce(reb_sim):  
+def simulateparticle(v0, t_f):
+    Ncaptured = 0
+    Rmax = (G*M)/(2*c_s**2)
+    sim = rebound.Simulation()
+    sim.integrator = "IAS15"
+    sim.G = G
+    def extraForce(reb_sim):
         t = sim.t
-        for particle in sim.particles: 
-            for i in range(0, len(sim.particles)):
-                r = math.sqrt(sim.particles[i].x**2 + sim.particles[i].y**2) # in meters
-                M_enc = Mtot(r, t) 
-                a = G*M_enc/r**2
-            particle.ax = -particle.x/r*a
-            particle.ay = -particle.y/r*a
+        for particle in sim.particles:
+            r = math.sqrt(particle.x**2 + particle.y**2)
+            M_enc = Mtot(r, t)
+            a = G * M_enc / r**2
+            particle.ax = -particle.x / r * a
+            particle.ay = -particle.y / r * a
 
-    sim.additional_forces = extraForce  
-    N = 0   
-    Nsteps = 250   
-    t_final = years_to_seconds(t_f)   
+    sim.additional_forces = extraForce
+    N = 0
+    Nsteps = 500
+    barr = []
+    t_final = years_to_seconds(t_f)
     tvec = np.logspace(np.log10(t_final/10.0**6), np.log10(t_final), Nsteps+1)
-    sim.t = tvec[0]   
+    sim.t = tvec[0]
+    crossed = 0
+    particle_dat = {}
     for i in range(0, Nsteps):
         b = math.sqrt(get_bmax(Rmax, 1.025*v0, tvec[i])**2*np.random.random())
         bmiss = get_bmax(Rmax, 1.025*v0, tvec[i])
@@ -222,53 +224,58 @@ def simulate_n_particles(v0, t_f):
         for j in range(N_static):
             b = math.sqrt(bmiss**2*np.random.random())
             if b < bmiss:
+                '''
                 theta = (99 * np.pi / 100) * (j / (Nsteps - 1))
                 xpos = Rmax * np.cos(theta)
                 ypos = Rmax * np.sin(theta)
+                '''
                 [vxp, vyp] = get_params(b, Rmax, v0,sim.t)
-                sim.add(m = 0, x = xpos, y = ypos, vx = vxp, vy = vyp)
+                sim.add(m = 0, x = -Rmax, y = 0, vx = vxp, vy = vyp)
+                barr.append(b)
                 N = N + 1
+
+        for k, particle in enumerate(sim.particles):
+            r = np.sqrt(particle.x**2 + particle.y**2)
+            tyr = seconds_to_years(sim.t)
+            potential = getPhi(r, sim.t)
+            energy = getEnergy(particle, sim.t)
+            impact_param = barr[k] if k < len(barr) else None
+            v = math.sqrt(particle.vx**2+particle.vy**2)
+
+            if f'{k}' not in particle_dat:
+                particle_dat[f'{k}'] = {}
+
+            particle_dat[f'{k}'][f'{tyr}'] = {'energy': energy, 'r': r, 'potential': potential, 'impact parameter': impact_param, 'velocity': v}
+
+            if r < c_s * sim.t:
+                crossed += 1
+
         if N > 0:
             sim.integrate(tvec[i+1])
         else:
             sim.t = tvec[i+1]
     Evec = np.zeros(N)
-    print('number of particles', N)
-    for i in range(0, N):  
+    for i in range(0, N):
         Evec[i] = getEnergy(sim.particles[i], tvec[i-1])
-    for i in range(0, len(Evec)):  
-        if Evec[i] < 0:  
+    for i in range(0, len(Evec)):
+        if Evec[i] < 0:
             Ncaptured = Ncaptured + 1
-    capturevolume = meters3toau3(getcaptV(Rmax, v0, sim.t))
-    
-    print(capturevolume)
-    '''
-    with h5py.File(outputfile, 'a') as h5f:
-        if 'Ncaptured' not in h5f:
-            h5f.create_dataset('Ncaptured', data=[Ncaptured], maxshape=(None,), dtype='i')
-        else:
-            h5f['Ncaptured'].resize((h5f['Ncaptured'].shape[0] + 1,))
-            h5f['Ncaptured'][-1] = Ncaptured
+    data = []
+    for particle_id, time_data in particle_dat.items():
+        for time, values in time_data.items():
+            data.append({
+                "particle": particle_id,
+                "time": float(time),
+                "energy": values['energy'],
+                "r": values['r'],
+                "potential": values['potential'],
+                "impact parameter": values['impact parameter'],
+                "v0": v0,
+                "v": values['velocity']
+            })
+    df = pd.DataFrame(data)
+    df.to_csv(f"{outputfile}", index=False)
+    print(df)
+    return Ncaptured
 
-        if 'Entered' not in h5f:
-            h5f.create_dataset('Entered', data=[N], maxshape=(None,), dtype='i')
-        else:
-            h5f['Entered'].resize((h5f['Entered'].shape[0] + 1,))
-            h5f['Entered'][-1] = N
-
-        if 'CaptureVolume' not in h5f:
-            h5f.create_dataset('CaptureVolume', data=[capturevolume], maxshape=(None,), dtype='f')
-        else:
-            h5f['CaptureVolume'].resize((h5f['CaptureVolume'].shape[0] + 1,))
-            h5f['CaptureVolume'][-1] = capturevolume
-
-        if 'InitialVelocity' not in h5f:
-            h5f.create_dataset('InitialVelocity', data=[v0], maxshape=(None,), dtype='f')
-        else:
-            h5f['InitialVelocity'].resize((h5f['InitialVelocity'].shape[0] + 1,))
-            h5f['InitialVelocity'][-1] = v0
-    '''
-    return Ncaptured    
-
-simulate_n_particles(v0, t_f)   
-              
+simulateparticle(v0, t_f)

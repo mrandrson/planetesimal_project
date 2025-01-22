@@ -1,6 +1,6 @@
 ##Enclosed Mass
 import scipy
-from scipy.integrate import cumtrapz as ct
+#from scipy.integrate import cumtrapz as ct
 import LarsonSolution as LS
 import scipy.constants as sc
 from scipy import integrate

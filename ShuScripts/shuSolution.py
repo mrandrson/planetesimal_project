@@ -31,7 +31,7 @@ def getSolution(A, Nsteps):
         vvec[i+1], alphavec[i+1] = takeStep(alpha, v, x, dx)
     return xvec, alphavec, vvec
 
-x4, alpha4, v4 = getSolution(2.0000001,100)
+x4, alpha4, v4 = getSolution(2.00001,100)
 
 alphaHelp = scipy.interpolate.interp1d(x4, alpha4)
 vHelp = scipy.interpolate.interp1d(x4, v4)
