@@ -2,7 +2,7 @@
 
 parallel_jobs=10
 
-for i in {1..250}
+for i in {1..100}
 do
   echo "Run #$i"
   v0=$(echo "scale=4; 1830*($i/250)" | bc -l)

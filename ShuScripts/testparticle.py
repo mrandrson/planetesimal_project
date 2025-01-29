@@ -47,6 +47,7 @@ def trapIntegrateLinear(f, xmin, xmax, N):
         m = m + deltax*av
     return m
 
+'''
 def loaddata(filename):
     with open(filename, "rb") as file:
         Nsteps = np.fromfile(file, dtype=np.int32, count=1)[0]
@@ -70,7 +71,8 @@ def getAlpha(x):
  
 def getV(x): 
     return float(vHelp(x)) 
- 
+'''
+
 def au_to_meters(au):
     au_in_meters = 1.49e11 # meters
     return au * au_in_meters
@@ -110,7 +112,7 @@ v_integral = np.loadtxt('shuInt.txt')
 IntHelper = scipy.interpolate.interp1d(v_x, v_integral, kind = 'cubic')
 
 def get_x_integral(x):
-    if x < 10.0**(-6):
+    if x < 10.0**(-12):
         return 0
     if x > 2:
         return IntHelper(2) + 2*(x-2)
@@ -122,9 +124,11 @@ def Mtot(r, t):
     Mcalc =  centralMass + r0**3/(G*t**2)*get_x_integral(r/r0)
     return min(Mcalc, M)
 
+'''
 def getr_max(t): 
     return scipy.optimize.brentq(lambda r: (Mp(t)+getMenc(r, t)-2*10**30), .4, 20000)
- 
+'''
+
 def getPhi(r, t):  
     rmax = (G*M)/(2*c_s**2) 
     phi_max = -G*M/rmax 
@@ -184,7 +188,9 @@ def getcaptV(R, v0, tf):
 
 def get_augmentation_factor_Shu(b, R, v_0, t):
     v = math.sqrt(v_0**2 -2*getPhi(R, t) ) ##m/s
+    #print('v:', v)
     v_azimuthal = v_0*b/R
+    #print('v_a:', v_azimuthal)
     v_r = math.sqrt(v**2 - v_azimuthal**2)
     return 1 + c_s/v_r
 
@@ -211,13 +217,14 @@ def simulateparticle(v0, t_f):
     t_final = years_to_seconds(t_f)
     tvec = np.logspace(np.log10(t_final/10.0**6), np.log10(t_final), Nsteps+1)
     sim.t = tvec[0]
-    crossed = 0
     particle_dat = {}
     for i in range(0, Nsteps):
-        b = math.sqrt(get_bmax(Rmax, 1.025*v0, tvec[i])**2*np.random.random())
-        bmiss = get_bmax(Rmax, 1.025*v0, tvec[i])
+        b = math.sqrt(get_bmax(c_s*tvec[i], 1.025*v0, tvec[i])**2*np.random.random())
+        bmiss = get_bmax(c_s*tvec[i], 1.025*v0, tvec[i])
         if bmiss > b:
-            N_exp = 1/t_final*(tvec[i+1] - tvec[i])
+            ##Debugging comment##
+            #print('b:', b, 'r0:', c_s*tvec[i], 'v0:', v0, 't:', tvec[i])
+            N_exp = 1/t_final*(tvec[i+1] - tvec[i])*get_augmentation_factor_Shu(b, c_s*tvec[i], v0, tvec[i])
         else:
             N_exp = 0
         N_static = np.random.poisson(N_exp)
@@ -229,8 +236,8 @@ def simulateparticle(v0, t_f):
                 xpos = Rmax * np.cos(theta)
                 ypos = Rmax * np.sin(theta)
                 '''
-                [vxp, vyp] = get_params(b, Rmax, v0,sim.t)
-                sim.add(m = 0, x = -Rmax, y = 0, vx = vxp, vy = vyp)
+                [vxp, vyp] = get_params(b, c_s*sim.t, v0,sim.t)
+                sim.add(m = 0, x = -c_s*sim.t, y = 0, vx = vxp, vy = vyp)
                 barr.append(b)
                 N = N + 1
 
@@ -246,9 +253,6 @@ def simulateparticle(v0, t_f):
                 particle_dat[f'{k}'] = {}
 
             particle_dat[f'{k}'][f'{tyr}'] = {'energy': energy, 'r': r, 'potential': potential, 'impact parameter': impact_param, 'velocity': v}
-
-            if r < c_s * sim.t:
-                crossed += 1
 
         if N > 0:
             sim.integrate(tvec[i+1])

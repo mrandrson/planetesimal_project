@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/shuscripts/energyerror/analyzedat.py", line 79, in <module>
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/shuscripts/energyerror/analyzedat.py", line 79, in <module>
+    df1 = pd.read_csv(f'{file_path}')
+    df1 = pd.read_csv(f'{file_path}')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1024, in read_csv
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 618, in _read
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1618, in __init__
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1896, in _make_engine
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1896, in _make_engine
+    return mapping[engine](f, **self.options)
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+pandas.errors.EmptyDataError: No columns to parse from file
+srun: error: cnode064: task 0: Exited with exit code 1
+srun: error: cnode064: task 0: Exited with exit code 1
