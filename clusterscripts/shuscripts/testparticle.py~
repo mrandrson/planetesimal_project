@@ -57,11 +57,13 @@ def loaddata(filename):
 
     return xvec, alphavec, vvec
 
+'''
 x4, alpha4, v4 = loaddata("shusolution.bin")
 
 alphaHelp = scipy.interpolate.interp1d(x4, alpha4)
 vHelp = scipy.interpolate.interp1d(x4, v4)
- 
+'''
+
 def getAlpha(x): 
     if x>1: 
         return 2*x**(-2) 
@@ -206,7 +208,7 @@ def simulateparticle(v0, t_f):
 
     sim.additional_forces = extraForce  
     N = 0   
-    Nsteps = 500   
+    Nsteps = 100   
     barr = []
     t_final = years_to_seconds(t_f)   
     tvec = np.logspace(np.log10(t_final/10.0**6), np.log10(t_final), Nsteps+1)
@@ -214,10 +216,11 @@ def simulateparticle(v0, t_f):
     crossed = 0
     particle_dat = {}
     for i in range(0, Nsteps):
-        b = math.sqrt(get_bmax(c_s*tvec[i], 1.025*v0, tvec[i])**2*np.random.random())
-        bmiss = get_bmax(c_s*tvec[i], 1.025*v0, tvec[i])
+        b = math.sqrt(get_bmax(Rmax, 1.025*v0, tvec[i])**2*np.random.random())
+        bmiss = get_bmax(Rmax, 1.025*v0, tvec[i])
         if bmiss > b:
-            N_exp = 1/t_final*(tvec[i+1] - tvec[i])*get_augmentation_factor_Shu(b, c_s*tvec[i], v0, tvec[i])
+            #N_exp = 1/t_final*(tvec[i+1] - tvec[i])*get_augmentation_factor_Shu(b, c_s*tvec[i], v0, tvec[i])
+            N_exp = 10*((tvec[i+1] - tvec[i])/t_final)
         else:
             N_exp = 0
         N_static = np.random.poisson(N_exp)
@@ -229,8 +232,8 @@ def simulateparticle(v0, t_f):
                 xpos = Rmax * np.cos(theta)
                 ypos = Rmax * np.sin(theta)
                 '''
-                [vxp, vyp] = get_params(b, c_s*tvec[i], v0, tvec[i])
-                sim.add(m = 0, x = -c_s*tvec[i], y = 0, vx = vxp, vy = vyp)
+                [vxp, vyp] = get_params(b, Rmax, v0, tvec[i])
+                sim.add(m = 0, x = -Rmax, y = 0, vx = vxp, vy = vyp)
                 barr.append(b)
                 N = N + 1
         
