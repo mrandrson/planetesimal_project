@@ -1,0 +1,35 @@
+import numpy as np
+import os
+
+def writeScript(b, v_0, t_init, t_entry, folder):
+    lines = []
+    lines = lines + ['#!/bin/bash\n']
+    lines = lines + ['#SBATCH -n 1\n']
+    lines = lines + ['#SBATCH -o output.txt\n']
+    lines = lines + ['#SBATCH -e errorLarson.txt\n']
+    lines = lines + ['#SBATCH -p phys-k\n']
+    lines = lines + ['python LarsonDeterministic.py ' + str(b) + ' ' + str(v_0) + ' '  + str(t_init) + ' ' + str(t_entry) +  ' '  + str(folder)  + '\n']
+    arc = open('submit.sh', 'w')
+    arc.writelines(lines)
+    arc.close()
+
+
+bvec = np.logspace(9, 17, 80)
+vvec = np.logspace(np.log10(18.3), np.log10(1830), 10)
+tvec = np.linspace(3000, 30000, 10)
+for i in range(0, 79):
+    for j in range(0, 10):
+         writeScript(bvec[i],  10, 1.349*10.0**4, tvec[j], 1)
+         os.system('sbatch submit.sh')
+'''
+for i in range(0, 79):
+    for j in range(0, 10):
+         writeScript(bvec[i], bvec[i+1],  vvec[j], 1.349*10.0**5, i, j, 2, 40)
+         os.system('sbatch submit.sh')
+
+for i in range(0, 79):
+    for j in range(0, 10):
+         writeScript(bvec[i], bvec[i+1],  vvec[j], 1.349*10.0**6, i, j, 3, 40)
+         os.system('sbatch submit.sh')
+
+'''

@@ -1,0 +1,23 @@
+import numpy as np
+import os
+
+def writeScript(b, R_init, v_0):
+    lines = []
+    lines = lines + ['#!/bin/bash\n']
+    lines = lines + ['#SBATCH -n 1\n']
+    lines = lines + ['#SBATCH -o output.txt\n']
+    lines = lines + ['#SBATCH -e error.txt\n']
+    lines = lines + ['#SBATCH -p phys-k\n']
+    lines = lines + ['python integratedFixedb.py ' + str(b) + ' ' + str(R_init) + ' ' + str(v_0)  + '\n']
+    arc = open('submit.sh', 'w')
+    arc.writelines(lines)
+    arc.close()
+
+
+bvec = np.logspace(9, np.log10(6) + 15, 30)
+for i in range(0, 20):
+    for j in range(0, 30):
+         writeScript(bvec[j], 2.29*10.0**14, 100*(i+1) )
+         os.system('sbatch submit.sh')
+
+

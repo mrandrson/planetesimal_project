@@ -48,17 +48,6 @@ c_s = math.sqrt(script_R*T)
 M = 1.9891*10.0**30 ## kg
 G = 6.67*10.0**(-11)  ## m^3*kg^-1*s^-2
 
-'''
-bmin = float(sys.argv[1])
-bmax = float(sys.argv[2])
-v_0 = float(sys.argv[3])
-t_final = float(sys.argv[4])
-b_index = sys.argv[5]
-v_index = sys.argv[6]
-folder = sys.argv[7]
-reps = int(sys.argv[8])
-'''
-
 def trap_integrate_log(f, xmin, xmax, N):
     s = np.logspace(np.log10(xmin), np.log10(xmax), N)
     fvec = np.zeros(N)
@@ -83,21 +72,18 @@ def trap_integrate_linear(f, xmin, xmax, N):
         m = m + deltax*av
     return m
 
+def years_to_seconds(years):
+    return years * 365.25 * 24 * 3600
+
 def get_b_max(potential, R, v0, t): #returns the maximum impact parameter for particles impacting the edge of the collapsing cloud at time t.
     phi = potential(R, t)
     return R*math.sqrt(1-2*phi/v0**2)
-
-'''
-def get_t(r):
-    return scipy.optimize.brentq(lambda t: get_r_max(t) - r, 0, 10000000) ##years
-'''
 
 def get_params(potential, b, R, v0, t): # returns the components of the velocity vector given a potential function, and the radius R
     v = math.sqrt(v0**2 -2*potential(R, t) ) ##m/s
     vazimuthal = v0*b/R
     vr = math.sqrt(v**2 - vazimuthal**2)
     return [vr, vazimuthal]
-
 
 def get_augmentation_factor_Shu(b, R, v_0, t):
     v = math.sqrt(v_0**2 -2*get_phi_Shu(R, t) ) ##m/s
@@ -148,31 +134,28 @@ def get_phi_Shu(r, t):
         return -G*M/r
     return -G*M/(r_out) - trap_integrate_log(lambda x: get_Shu_little_g(x, t), r, r_out, 1000)
 
-r_vals = np.linspace(1e-12, r_out, 100)
+r_vals = np.logspace(13, np.log10(r_out), 10)
 
-import matplotlib.animation as animation
+tsec = np.logspace(-1, np.log10(35000), 100)
+t_values = np.array([years_to_seconds(t) for t in tsec])
+phi_matrix = np.zeros((len(r_vals), len(t_values)))
 
-fig, ax = plt.subplots(figsize=(8, 5))
-line_phi, = ax.plot([], [], label="Gravitational Potential $\phi_{Shu}(r,t)$", color='blue')
-ax.set_xlim(r_vals.min(), r_vals.max())
-ax.set_xlabel("Radius r (m)")
-ax.set_ylabel("Gravitational Potential $\phi_{Shu}(r,t)$ (J/kg)")
-ax.set_title("Shu Model Gravitational Potential Evolution Over Time")
-ax.legend()
-ax.grid()
+for i, r in enumerate(r_vals):
+    for j, t in enumerate(t_values):
+        phi_matrix[i, j] = get_phi_Shu(r, t)
 
-t_values = np.linspace(1, 350000*3.154e7, 50)
+T, R = np.meshgrid(tsec, r_vals)
+phi_flat = phi_matrix.flatten()
+T_flat = T.flatten()
+R_flat = R.flatten()
 
-def update(frame):
-    t = t_values[frame]
-    phi_vals = np.array([get_phi_Shu(r, t) for r in r_vals])
-    line_phi.set_data(r_vals, phi_vals)
-    y_min, y_max = phi_vals.min(), phi_vals.max()
-    ax.set_ylim(y_min * 1.1, y_max * 0.9)
-    ax.set_title(f"Shu Model Gravitational Potential at t = {t:.2e} s")
-    return line_phi,
-
-ani = animation.FuncAnimation(fig, update, frames=len(t_values), interval=50, blit=False)
-
+plt.figure(figsize=(10, 6))
+sc = plt.scatter(T_flat, -phi_flat, c=R_flat, cmap='viridis', s=10, edgecolor='none')
+plt.xscale('log')
+plt.yscale('log')
+plt.xlabel('t (yr)', fontsize=14)
+plt.ylabel(r'$-\phi_{\rm Shu}(r,t)$', fontsize=14)
+cbar = plt.colorbar(sc, label='Radius (m)')
+plt.title('Gravitational Potential Over Time with Radius as Color')
+plt.tight_layout()
 plt.show()
-

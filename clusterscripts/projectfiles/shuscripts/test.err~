@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/shuscripts/testparticle.py", line 320, in <module>
+    simulateparticle(v0, t_f)   
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/shuscripts/testparticle.py", line 311, in simulateparticle
+    with h5py.File("./outputdata/simdata.h5", "a") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/h5py/_hl/files.py", line 247, in make_fid
+    fid = h5f.open(name, h5f.ACC_RDWR, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+BlockingIOError: [Errno 11] Unable to synchronously open file (unable to lock file, errno = 11, error message = 'Resource temporarily unavailable')
+srun: error: cnode071: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/shuscripts/testparticle.py", line 320, in <module>
+    simulateparticle(v0, t_f)   
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/shuscripts/testparticle.py", line 311, in simulateparticle
+    with h5py.File("./outputdata/simdata.h5", "a") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rbanderson/miniconda3/lib/python3.11/site-packages/h5py/_hl/files.py", line 247, in make_fid
+    fid = h5f.open(name, h5f.ACC_RDWR, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+BlockingIOError: [Errno 11] Unable to synchronously open file (unable to lock file, errno = 11, error message = 'Resource temporarily unavailable')
+srun: error: cnode071: task 0: Exited with exit code 1

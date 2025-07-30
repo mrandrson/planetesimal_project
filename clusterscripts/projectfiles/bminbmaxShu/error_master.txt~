@@ -1,0 +1,1120 @@
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
+Traceback (most recent call last):
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 257, in <module>
+    get_captured_number(bmin, bmax, v_0, t_final)
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 245, in get_captured_number
+    faug = get_augmentation_factor_Shu(bmax, R, v_0, sim.t)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/home/rbanderson/projectfiles/bminbmaxShu/Shu.py", line 70, in get_augmentation_factor_Shu
+    v_r = math.sqrt(v**2 - v_azimuthal**2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error
