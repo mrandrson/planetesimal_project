@@ -1,7 +1,0 @@
-for i in range(0, 10):
-	for j in range(0, 79):
-		s = open('output' + str(i) + "Larson" + str(j) + '.txt')
-		lines = s.readlines()
-		s.close()
-		if len(lines) > 1:
-			print(i, j)

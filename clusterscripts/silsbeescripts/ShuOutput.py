@@ -55,13 +55,11 @@ def get_b_max(potential, R, v0, t): #returns the maximum impact parameter for pa
 def get_t(r):
     return scipy.optimize.brentq(lambda t: get_r_max(t) - r, 0, 10000000) ##years
 
-
 def get_params(potential, b, R, v0, t): # returns the components of the velocity vector given a potential function, and the radius R
     v = math.sqrt(v0**2 -2*potential(R, t) ) ##m/s
     vazimuthal = v0*b/R
     vr = math.sqrt(v**2 - vazimuthal**2)
     return [vr, vazimuthal]
-
 
 def get_augmentation_factor_Shu(b, R, v_0, t):
     v = math.sqrt(v_0**2 -2*get_phi_Shu(R, t) ) ##m/s
@@ -69,7 +67,6 @@ def get_augmentation_factor_Shu(b, R, v_0, t):
     v_r = math.sqrt(v**2 - v_azimuthal**2)
     return 1 + c_s/v_r
     
-
 def getEnergy(particle, t):
     x = particle.x
     y = particle.y
@@ -79,13 +76,8 @@ def getEnergy(particle, t):
     v = math.sqrt(vx**2 + vy**2)
     return 0.5*v**2 + get_phi_Shu(r, t) 
 
-
 def calculateFluxShu():
     return 10*10.0**(-12)*10.0**12/t_final
- 
- 
-
-
 
 shu_x = np.logspace(-12, np.log10(2), 10000)
 

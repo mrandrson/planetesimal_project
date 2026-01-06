@@ -1,0 +1,34 @@
+# Python / cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Package managers
+node_modules/
+
+# Data/output directories
+outputsShu/
+silsbeeoutputs/
+outputstest/
+testparticle/
+playgrnd/
+analysis-hom/
+analysis-larson/
+
+# Common data/output file types
+*.csv
+*.tsv
+*.dat
+*.data
+*.out
+*.err
+*.log
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.fits
+*.bin
+*.sqlite
+*.db

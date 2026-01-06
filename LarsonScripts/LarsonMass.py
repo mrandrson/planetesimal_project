@@ -7,37 +7,52 @@ from scipy import integrate
 import math as m
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+from LarsonSolution import getEta, getXi
 script_R = 3.36*10**3
 T = 10
-N = 100
-t = np.flip(-np.logspace(1, 5, N)) ##Years
+cs = np.sqrt(script_R*T)
+N = 600
+
+tf = 35000*3.154e7
+tmax = tf/1e8
+t = np.flip(-np.logspace(np.log10(tmax), np.log10(tf), N)) ##seconds
+
 x = LS.x
 trapIntegrateLinear = LS.trapIntegrateLinear
 trapIntegrateLog = LS.trapIntegrateLog
-r0 = -t*np.sqrt(3.36*10.0**3*10) * (31557600/149597870691) ## AU
+r0 = -t*np.sqrt(3.36e4)/1.496e11 ## AU
 
 r_values = [10, 100, 1000] # AU
 colors = ['blue', 'red', 'green']
 
 fig = plt.figure(figsize=(8, 8))
 ax1 = fig.add_subplot(111)
-ax1.set_xlim(-10**5, -10)
+#ax1.set_xlim(-10**13, -10)
 ax1.set_xscale("symlog")
 ax1.set_yscale("log")
 plt.xlabel('t(yr)', fontsize=25)
 plt.ylabel('M$_{enc}$(kg)', fontsize=25)
 
+for r in r_values:
+    os.system(f"rm -rf LarsonMass{r}.txt")
+
 for i, r in enumerate(r_values):
     M_enc = np.zeros(N)
+    Mshu = np.zeros(N)
     for j in range(0, N):
         integral = scipy.integrate.quad(lambda x: x**2*LS.getEta(x), 0, r/r0[j])[0]
-        M_enc[j] = ((-t[j]*(31557600)*(script_R*T)**(3/2))/sc.G)*integral ##kg
-    ax1.plot(t, M_enc, label=f'M$_{{enc}}$ (r = {r} AU)', color=colors[i])
+        M_enc[j] = ((-t[j]*(script_R*T)**(3/2))/sc.G)*integral ##kg
+        x = r/(-cs*t[j])
+        print(f"{100*(i*j)/(3*N):.2f}")
+    np.savetxt(f"LarsonMass{r}.txt", np.column_stack((t, M_enc)), fmt="%.8e", delimiter=",", header="t,M", comments="") 
+    ax1.plot(t/3.154e7, M_enc, label=f'M$_{{enc}}$ (r = {r} AU)', color=colors[i])
 
 
 plt.legend(fontsize=20)
 plt.show()
 
+'''
 def getMenc(r, t):
     r0 = -t*np.sqrt(3.36*10.0**3*10) * (31557600/149597870691) ## AU
     if r/r0 < 1:
@@ -70,5 +85,5 @@ ax1.set_xscale("log")
 plt.xlabel('r(AU)', fontsize=25)
 plt.ylabel('$\\phi\\left(\\frac{m}{s}\\right)^2$', fontsize=25)
 plt.show()
-
+'''
  

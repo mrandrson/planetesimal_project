@@ -1,6 +1,0 @@
-#!/bin/bash
-#SBATCH -n 1
-#SBATCH -o output.txt
-#SBATCH -e errorShu.txt
-#SBATCH -p phys-k
-python Shu.py 8154407395.185153 10295755673.125128 916.5151389911683 108290000000.0 9 29 1 100

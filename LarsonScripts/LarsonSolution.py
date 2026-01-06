@@ -1,4 +1,3 @@
-##Eta and Xi
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy
@@ -45,17 +44,6 @@ xi[0] = 5/3
 for i in range(1, N):
     eta[i] = eta[i-1] + (x[i]-x[i-1])*(((x[i-1]-eta[i-1])/x[i-1])*((xi[i-1]*x[i-1]*(x[i-1]-eta[i-1])-2)/((x[i-1]-eta[i-1])**2-1)))
     xi[i] = xi[i-1] + (x[i]-x[i-1])*(xi[i-1]*(((x[i-1]-eta[i-1])/x[i-1])*(xi[i-1]*x[i-1]-2*(x[i-1]-eta[i-1]))/((x[i-1]-eta[i-1])**2-1)))
-fig = plt.figure(figsize = (8, 10))
-ax1 = fig.add_subplot(111)
-l1, = ax1.plot(x, xi)
-ax1.set_xscale("log")
-ax1.set_xlim(10**-1, 10**2)
-ax1.set_yscale("log")
-ax1.set_ylim(10**-3, 10**1)
-ax1.text(10**0.25, 10**-0.5, "log $\eta$", fontsize=10)
-ax1.text(10**0.75, 10**0.15, "log $\u03BE$", fontsize=10)
-plt.plot(x, eta, color = 'purple')
-plt.plot(x, xi, color = 'blue')
 
 etaHelper = scipy.interpolate.interp1d(x, xi)
 def getEta(x):
@@ -64,5 +52,27 @@ def getEta(x):
     if x > 10.0**2:
         return 8.86/x**2
     return float(etaHelper(x))
-#plt.show()
+
+xiHelper = scipy.interpolate.interp1d(x, eta)
+
+def getXi(x):
+    if x < 1e-6:
+        return (2*x)/3
+    if x > 1e2:
+        return 3.28
+    return float(xiHelper(x))
+
+if __name__ == "__main__":
+    fig = plt.figure(figsize = (6, 8))
+    ax1 = fig.add_subplot(111)
+    l1, = ax1.plot(x, xi)
+    ax1.set_xscale("log")
+    ax1.set_xlim(10**-1, 10**2)
+    ax1.set_yscale("log")
+    ax1.set_ylim(10**-3, 10**1)
+    ax1.text(10**0.25, 10**-0.5, "log $\eta$", fontsize=10)
+    ax1.text(10**0.75, 10**0.15, "log $\u03BE$", fontsize=10)
+    plt.plot(x, eta, color = 'purple')
+    plt.plot(x, xi, color = 'blue')
+    plt.show()
 
